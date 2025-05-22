@@ -1,16 +1,3 @@
-/*
-
-    🚗 Project Name: "Car Control System"
-🔧 Goal:
-User sirf startCar() aur stopCar() function call karega, lekin andar ka pura mechanism hide rahega — yehi abstraction hai.
-
-💡 Concept Covered:
-Show only important methods to the user (like startCar(), stopCar()).
-
-Hide the internal steps like igniteEngine(), checkFuelLevel(), injectFuel() etc.
-
-
-*/
 
 #include<iostream>
 using namespace std;
