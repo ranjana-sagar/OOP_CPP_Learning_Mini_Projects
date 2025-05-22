@@ -1,11 +1,11 @@
-# 📘 Project: Book Class with Constructor Overloading
+#  Project: Book Class with Constructor Overloading
 
-## 🎯 Objective
+##  Objective
 To implement a `Book` class in C++ that demonstrates **constructor overloading**. This allows objects to be created with varying levels of detail (e.g., only title, title+author, or title+author+price).
 
 ---
 
-## 📚 Features
+##  Features
 
 | Constructor Signature                | Purpose                            |
 |-------------------------------------|------------------------------------|
@@ -15,7 +15,7 @@ To implement a `Book` class in C++ that demonstrates **constructor overloading**
 
 ---
 
-## 🛠️ Concepts Practiced
+## 🛠 Concepts Practiced
 
 - Constructor Overloading in C++
 - Use of `char` arrays instead of `std::string`
@@ -23,7 +23,7 @@ To implement a `Book` class in C++ that demonstrates **constructor overloading**
 
 ---
 
-## 🧱 Class Structure
+##  Class Structure
 
 ### Class: `Book`
 
@@ -44,7 +44,7 @@ To implement a `Book` class in C++ that demonstrates **constructor overloading**
 
 ---
 
-## 🧪 Sample Execution Flow
+##  Sample Execution Flow
 
 ```cpp
 Book b1("Computer Network");
