@@ -1,12 +1,12 @@
-# 🧠 DynamicArray Mini Project (with Deep Copy Constructor)
+#  DynamicArray Mini Project (with Deep Copy Constructor)
 
-## 📌 Objective
+##  Objective
 This mini project demonstrates the implementation of a custom `DynamicArray` class in C++ that handles:
 - Dynamic memory allocation using `calloc`
 - Deep copy constructor to ensure memory independence
 - Safe memory deallocation using a destructor
 
-## ✅ Concepts Practiced
+##  Concepts Practiced
 - **Constructors and Destructors**
 - **Dynamic Memory Allocation**
 - **Deep Copy vs Shallow Copy**
@@ -15,17 +15,17 @@ This mini project demonstrates the implementation of a custom `DynamicArray` cla
 
 ---
 
-## 📦 Features
+##  Features
 
-- 📐 **Parameterized Constructor:** Accepts size and dynamically allocates array memory.
-- 📋 **Deep Copy Constructor:** Creates a new array and copies values element-by-element (not just pointer copy).
-- 🚫 **Destructor:** Releases dynamically allocated memory to prevent memory leaks.
-- ✍️ **Setter and Getter Functions:** For safe value updates and retrieval.
-- 🔍 **Display Function:** To print the current state of the array.
+-  **Parameterized Constructor:** Accepts size and dynamically allocates array memory.
+-  **Deep Copy Constructor:** Creates a new array and copies values element-by-element (not just pointer copy).
+-  **Destructor:** Releases dynamically allocated memory to prevent memory leaks.
+-  **Setter and Getter Functions:** For safe value updates and retrieval.
+-  **Display Function:** To print the current state of the array.
 
 ---
 
-## ⚙️ How Deep Copy Works
+##  How Deep Copy Works
 
 When you assign or copy one object to another, you often want:
 - **Independent memory** → So changes in one don't affect the other.
@@ -40,7 +40,7 @@ This is achieved using the **deep copy constructor**, which:
 
 ---
 
-## 💡 Sample Usage
+##  Sample Usage
 
 ```cpp
 int main() {
